@@ -7,8 +7,13 @@ body {
     text-align: center;
 }
 
+#timerBtn {
+    padding-bottom: 10px;
+}
+
 #q1 {
     opacity: 0.85;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -45,4 +50,5 @@ body {
 .btn-primary {
     background-color: #ec479e;
     border-color: #ec479e;
+    padding-bottom: 10px;
 }
