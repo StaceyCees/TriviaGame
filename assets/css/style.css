@@ -1,7 +1,41 @@
 body {
-    background-color: #49acc1;
+    background-image: url("file:///Users/staceycarrillo/Desktop/TriviaGame/assets/images/guitar.jpg");
+    padding-bottom: 20px;
 }
 
 .jumbotron {
     text-align: center;
+}
+
+#q1 {
+    padding-bottom: 10px;
+}
+
+#q2 {
+    padding-bottom: 10px;
+}
+
+#q3 {
+    padding-bottom: 10px;
+}
+
+#q4 {
+    padding-bottom: 10px;
+}
+
+#q5 {
+    padding-bottom: 10px;
+}
+
+#q6 {
+    padding-bottom: 10px;
+}
+
+#q7 {
+    padding-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #ec479e;
+    border-color: #ec479e;
 }
