@@ -22,6 +22,10 @@ $("#timerBtn").click( function(){
       }, 5000);
  });
 
+ $("#submitBtn").click( function(){
+ window.open("totals.html", "_self")
+ });
+
 var qA = {
     1:{
         question:'What artist sang the 1986 song “Danger Zone” from Top Gun?',
