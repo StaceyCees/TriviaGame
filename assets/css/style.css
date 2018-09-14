@@ -52,3 +52,7 @@ body {
     border-color: #ec479e;
     padding-bottom: 10px;
 }
+
+#totalTitle {
+    text-align: center;
+}
