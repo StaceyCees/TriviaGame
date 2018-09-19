@@ -6,6 +6,7 @@ var rightCount = 0;
 var wrongCount = 0;
 var qACount = 1;
 
+
 //Functions
 
 //Timer
@@ -25,7 +26,10 @@ $("#timerBtn").click( function(){
 
  //Submit
  $("#submitBtn").click( function(){
- window.open("totals.html", "_self")
+    var unanswered = $('input').not(':checked');
+ $("#uaTotal").append(unanswered.length);
+    console.log(unanswered.length);
+ window.open("totals.html", "_self");
  });
 
 //Assign correct values to answers
@@ -46,7 +50,6 @@ var qA = {
     1:{
         question:'What artist sang the 1986 song “Danger Zone” from Top Gun?',
         answers:['Sting','Kenny Loggins','Michael Jackson'],
-        answers [0]
         correct:'Kenny Loggins',
         right: 'Correct!',
         wrong: 'Wrong!',
